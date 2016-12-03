@@ -1,0 +1,19 @@
+HTML 
+1. 记单词  <p>  <ul> <ol> <abbr>
+2. <a href="javascript:;" download no-refer> 
+3. <form action method charset accept >  <input type=?> <button type=?>
+
+<meta>
+
+
+
+
+2016年11月30日
+
+http://jsbin.com/zufidop/edit?css,output
+http://jsbin.com/qemojoz/edit?html,css,output
+http://jsbin.com/papulaf/edit?html,css,output
+
+
+
+http://youmightnotneedjs.com/
