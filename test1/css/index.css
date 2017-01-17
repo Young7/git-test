@@ -1,7 +1,16 @@
-.mydiv{
-background-color: rgba(22,22,11,42);
+.mydiv {
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgba(22, 22, 11, 0.8);
+    color: white;
+    color: white;
+    font-size: 20px;
+    font-family: "微软雅黑";
 }
-#p1{
-	font-family: "微软雅黑","Microsoft yahei";
-	font-size:2em;
+
+#p1 {
+    font-family: "微软雅黑", "Microsoft yahei";
+    font-size: 2em;
 }
