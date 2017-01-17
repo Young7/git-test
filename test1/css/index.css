@@ -10,6 +10,48 @@
     font-family: "微软雅黑";
 }
 
+.mydiv2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px dotted #ccc;
+    text-align: center;
+    background-color: rgba(66, 235, 99, 0.8);
+    color: white;
+    word-wrap: break-word;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    transition: background-color 0.5s;
+}
+
+.mydiv2:hover {
+    background-color: red;
+}
+
+.div2 {
+    height: 15px;
+    background-color: rgba(66, 235, 99, 0.8);
+}
+
+.baidu {
+    color: #fff;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    padding: 4px;
+    background: #330000;
+    border-radius: 4px;
+    transition: color 0.5s;
+    line-height: 60px;
+}
+
+.baidu:hover {
+    color: blue;
+    background: ;
+}
+
+.baidu:active {
+    background: rgba(66, 235, 99, 0.8);
+}
+
 #p1 {
     font-family: "微软雅黑", "Microsoft yahei";
     font-size: 2em;
