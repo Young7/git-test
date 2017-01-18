@@ -56,3 +56,22 @@
     font-family: "微软雅黑", "Microsoft yahei";
     font-size: 2em;
 }
+
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table1 th {
+    background-color: #22aaaa;
+}
+
+.table1 th,td {
+    text-align: center;
+    border: 1px solid green;
+    line-height: 30px;
+}
+
+.table1 td:hover {
+    background: #ccc;
+}
