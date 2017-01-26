@@ -76,3 +76,11 @@
 .table1 td:hover {
     background: #ccc;
 }
+.form1 {
+    background-color: rgba(253,245,230,0.8);
+    font-family: "微软雅黑";
+    transition: background-color 0.3s;
+}
+.form1:hover{
+    background-color: rgba(202,255,112,0.5);
+}

@@ -33,8 +33,6 @@
     </div>
     <div class="div2">123123</div>
     <p id="here">pppppppp</p>
-    
-
     <table class="table1">
         <tr>
             <th>11</th>
@@ -49,11 +47,49 @@
             <td>22</td>
         </tr>
     </table>
-    
-
+    <div class="form1">
+        <form action="/get.js" method="post">
+            <div class="username">
+                <label for="username">姓名：</label>
+                <input id="username" type="text" name="username" placeholder="用户名">
+            </div>
+            <div class="password">
+                <label for="password">密码：</laber>
+                    <input id="password" type="password" name="password" value="123456">
+            </div>
+            <div class="sex">
+                <label for="sex">性别：</label>
+                <input id="sex" type="radio" name="sex" value="male">男
+                <input id="sex" type="radio" name="sex" value="female">女
+            </div>
+            <div class="orientation">
+                <label for="orientation">取向：</label>
+                <input id="orientation" type="radio" name="orientation" value="male">男
+                <input id="orientation" type="radio" name="orientation" value="female">女
+            </div>
+            <div class="hobby">
+                <label for="hobby">爱好：</label>
+                <input id="hobby" type="checkbox" name="hobby" value="dota">dota
+                <input id="hobby" type="checkbox" name="hobby" value="travel">旅游
+                <input id="hobby" type="checkbox" name="hobby" value="pet">宠物
+            </div>
+            <div class="comment">
+                <label for="comment">评论：</label>
+                <textarea id="comment" name="comment" placeholder="ddd" rows="10" cols="50"></textarea>
+            </div>
+            <div class="select">
+                <label for="car">我的car：</laber>
+                    <select id="car" name="car">
+                        <option value="sabo">萨博</option>
+                        <option value="sabo">萨博2</option>
+                    </select>
+                    <input type="submit" value="提交" />
+            </div>
+        </form>
+    </div>
     <script>
-    console.log(100);	
-    
+    console.log(100);
+
     console.log("nimabi");
     </script>
 </body>
