@@ -24,6 +24,7 @@
 }
 
 .mydiv3 {
+    margin-top: 30px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -93,3 +94,46 @@ td {
 .form1:hover {
     background-color: rgba(202, 255, 112, 0.5);
 }
+
+.div123 {
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .btn {
+        display: inline-block;
+        padding: 8px 10px;
+        text-decoration: none;
+        color: #000;
+        border-radius: 3px;
+        transition: all .3s;
+    }
+    
+    .btn:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .btn1 {
+        background-color: #009688;
+        color: #fff;
+    }
+    
+    .btn2 {
+        background-color: #ff9800;
+    }
+    
+    .btn3 {
+        background-color: #ffeb3b;
+    }
+    
+    .btn4 {
+        background-color: #f44336;
+        color: #fff;
+    }
+    
+    .btn5 {
+        background-color: #4CAF50;
+        color: #fff;
+    }
+    
