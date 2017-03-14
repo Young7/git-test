@@ -1,0 +1,44 @@
+.layout {
+ width: 600px;
+ margin: 0 auto;
+}
+
+.layout>div{
+  margin-top: 30px;
+}
+
+.box{
+  padding: 1px 16px;
+  border-radius: 3px;
+  line-height: 1.5;
+  color:#fff;
+  
+}
+
+.box>h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+        }
+.box .close {
+  float:right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.alert1{
+  background-color: #4CAF50;
+}
+
+.alert2{
+  background-color: #2196F3;
+}
+
+.alert3{
+  background-color: #F44336;
+}
+
+.alert4{
+  background-color: #FF9800;
+}
+    
